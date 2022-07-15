@@ -1,0 +1,193 @@
+:root {
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+    font-family: 'Raleway',sans-serif;
+    background-color: #FFFFFF;
+    color: var(--primary-text-color)
+}
+
+.list {
+    list-style: none;
+}
+
+/*------------LOGO----*/
+.logo .header-pre-title {
+    color: var(--accent-color);
+
+}
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.03;
+
+}
+
+.header-site-nav .logo{
+    color: #000000;
+}
+.header-link{
+    color: var(--title-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(14/16);
+}
+
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-colopr);
+    text-transform: uppercase;
+}
+
+.header-current {
+    color: var(--accent-color);
+}
+.header-contact {
+        color: var(--primary-text-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(14/16);
+}
+.header-contact:hover
+.header-contact:focus{
+    color: var(--accent-color);
+} 
+/* Секция эфективные решения*/
+
+.section-hero{
+        background-color: #2F303A;
+        font-weight: 900;
+        font-size: 44px;
+        line-height:1.36;
+        color: #FFFFFF;
+}
+/*Заказать услугу*/
+.section-hero-btn
+{
+    background: #F5F4FA;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height:calc(16/30);
+    color: #212121;
+    cursor: pointer;
+}
+.section-hero-btn:hover,
+.section-hero-btn:focus{
+   background: #2196F3;
+   color: #FFFFFF;
+}
+.section-primery {
+    color: var(--primary-text-color)
+}
+.section-primery-text-title{
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(14/16);
+        text-transform: uppercase;
+        color: #212121;
+}
+.section-primery-text {
+      color: var(--primary-text-color);
+      font-size: 16px;
+        line-height: calc(16/19);
+}
+
+.section-description-title{ 
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(36/42);
+}
+.section-team-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(36/42);
+}
+.section-team-second-title{
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(16/19);
+        color: #212121;
+}
+.section-team-text{
+    
+        font-size: 16px;
+        line-height: calc(16/19);
+      
+}
+.footer{
+    background: #2F303A;
+}
+.footer .logo{
+    color: #FFFFFF;
+}
+.footer-title{
+    color:var(--accent-color);
+}
+.footer .address{
+    
+        font-size: 14px;
+        line-height: calc(14/24);
+
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+.footer .address-k{
+    color: #FFFFFF;
+}
+.visually-hidden {
+    /* Contain text within 1px box */
+    height: 1px;
+    overflow: hidden;
+    width: 1px;
+    /* Keep the layout */
+    position: absolute;
+    /* Remove any visible trace (e.g. background color) */
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    /* browsers in the future */
+    /* Prevent the screen reader to skip spaces between words */
+    white-space: nowrap;
+}
+.main-look-btn{
+    background: #F5F4FA;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height:calc(16/26);
+    cursor: pointer;
+}
+.main-look-btn :hover,
+.main-look-btn :focus{
+    background: #2196F3;
+    color: #ffffff;
+}
+.gallery-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height:calc(18/36);
+    color:var(--title-text-color);
+}
+.gallery-text{
+    font-size: 16px;
+    line-height: calc(16/30);
+    color: var(--primary-text-color);
+}
+
+
+/*основной цвет #212121;
+/* второй цвет #757575;
+/* logo #FFFFFF ; #2196F3;
+/*nav footer(255, 255, 255, 0.6);
+/* при нажатии #2196F3
