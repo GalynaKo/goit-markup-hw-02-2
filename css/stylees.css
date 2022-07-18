@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
     color: var(--primary-text-color)
 }
@@ -32,19 +32,20 @@ body {
 .header-site-nav .logo{
     color: #000000;
 }
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
 .header-link{
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
+    letter-spacing: 0.02em;
 }
 
 
-.header-link:hover,
-.header-link:focus {
-    color: var(--accent-colopr);
-    text-transform: uppercase;
-}
+
 
 .header-current {
     color: var(--accent-color);
@@ -71,13 +72,16 @@ body {
     font-size: 44px;
     line-height: 1.36;
     color: #FFFFFF;
+    text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
 }
      
 /*Заказать услугу*/
 .section-hero-btn
 {
     background: #F5F4FA;
-    font-family: 'Roboto';
+    font-family:inherit;
     font-weight: 700;
     font-size: 16px;
     line-height:calc(30/16);
@@ -135,7 +139,7 @@ body {
     background: #2F303A;
 }
 .footer-cursor{
-    cursor: initial;
+    cursor:none;
 }
 .footer .logo{
     color: #FFFFFF;
@@ -145,10 +149,10 @@ body {
 }
 
 .footer .address{
-    
+        color: rgba(255, 255, 255, 0.6);
         font-size: 14px;
         line-height: calc(24/14);
-        color: rgba(255, 255, 255, 0.6);
+        letter-spacing: 0.03em;
 }
 .footer .address-k{
     color: #FFFFFF;
@@ -172,13 +176,14 @@ body {
 .main-look-btn{
     background: #F5F4FA;
     color: var(--title-text-color);
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height:1.62;
     cursor: pointer;
 }
-.main-look-btn :hover,
-.main-look-btn :focus{
+.main-look-btn:hover,
+.main-look-btn:focus{
     background: #2196F3;
     color: #ffffff;
 }
