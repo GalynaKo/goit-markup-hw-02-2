@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',sans-serif;
     background-color: #FFFFFF;
     color: var(--primary-text-color)
 }
@@ -22,11 +22,11 @@ body {
 
 }
 .logo {
-    font-family: 'Raleway';
+    font-family:'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 0.03;
-
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
 }
 
 .header-site-nav .logo{
@@ -50,16 +50,17 @@ body {
 .header-current {
     color: var(--accent-color);
 }
-.header-contact {
-        color: var(--primary-text-color);
-        font-weight: 500;
-        font-size: 14px;
-        line-height: calc(16/14);
-}
-.header-contact:hover
-.header-contact:focus{
+.header-contact:hover,
+.header-contact:focus {
     color: var(--accent-color);
-} 
+}
+.header-contact {
+ color: var(--primary-text-color);
+ font-weight: 500;
+ font-size: 14px;
+ line-height: calc(16/14);
+}
+
 
 /* Секция эфективные решения*/
 
@@ -80,13 +81,14 @@ body {
 /*Заказать услугу*/
 .section-hero-btn
 {
-    background: #F5F4FA;
+    background:var(--accent-color);
     font-family:inherit;
     font-weight: 700;
     font-size: 16px;
     line-height:calc(30/16);
-    color: #212121;
+    color: #ffffff;
     cursor: pointer;
+    letter-spacing: 0.06em;
 }
 .section-hero-btn:hover,
 .section-hero-btn:focus{
@@ -156,6 +158,9 @@ body {
 }
 .footer .address-k{
     color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .visually-hidden {
     /* Contain text within 1px box */
@@ -176,7 +181,7 @@ body {
 .main-look-btn{
     background: #F5F4FA;
     color: var(--title-text-color);
-    font-family: 'Roboto';
+    font-family:'Roboto',sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height:1.62;
@@ -192,11 +197,13 @@ body {
     font-size: 18px;
     line-height:2;
     color:var(--title-text-color);
+    letter-spacing: 0.06em;
 }
 .gallery-text{
     font-size: 16px;
     line-height: 1.87;
     color: var(--primary-text-color);
+    letter-spacing: 0.03em;
 }
 
 
